@@ -16,7 +16,7 @@ customer3.add_review(restaurant1, 4)
 customer1.add_review(restaurant2, 5)
 customer3.add_review(restaurant2, 3)
 
-print("Average Star Rating for Delicious Grill:", restaurant1.average_star_rating())
+print("Average Star Rating for Pizza Inn:", restaurant1.average_star_rating())
 print("Restaurants reviewed by John Doe:", [restaurant.name for restaurant in customer1.restaurants()])
 print("Customer found by name 'John Doe':", Customer.find_by_name("John Doe").full_name())
 print("All customers with given name 'John':", [customer.full_name() for customer in Customer.find_all_by_given_name("John")])
