@@ -5,10 +5,10 @@ from review import Review
 
 # Example usage:
 customer1 = Customer("John", "Doe")
-customer2 = Customer("Jane", "Smith")
+customer2 = Customer("Mary", "Jane")
 customer3 = Customer("John", "Whick")
-restaurant1 = Restaurant("Delicious Grill")
-restaurant2 = Restaurant("Pizza Palace")
+restaurant1 = Restaurant("Pizza Inn")
+restaurant2 = Restaurant("The Mayuras")
 
 customer1.add_review(restaurant1, 5)
 customer2.add_review(restaurant1, 4)
