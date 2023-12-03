@@ -6,12 +6,15 @@ from review import Review
 # Example usage:
 customer1 = Customer("John", "Doe")
 customer2 = Customer("Jane", "Smith")
+customer3 = Customer("John", "Whick")
 restaurant1 = Restaurant("Delicious Grill")
 restaurant2 = Restaurant("Pizza Palace")
 
 customer1.add_review(restaurant1, 5)
 customer2.add_review(restaurant1, 4)
-customer1.add_review(restaurant2, 3)
+customer3.add_review(restaurant1, 4)
+customer1.add_review(restaurant2, 5)
+customer3.add_review(restaurant2, 3)
 
 print("Average Star Rating for Delicious Grill:", restaurant1.average_star_rating())
 print("Restaurants reviewed by John Doe:", [restaurant.name for restaurant in customer1.restaurants()])
