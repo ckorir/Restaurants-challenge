@@ -43,7 +43,7 @@ The `Restaurant` class represents a restaurant that can be reviewed.
 - `all()`: Get a list of all restaurant instances.
 - `reviews()`: Get a list of reviews associated with the restaurant.
 - `customers()`: Get a list of unique customers who have reviewed the restaurant.
-- `average_star_rating()`: Get the average star rating for the restaurant based on its reviews.
+- `average_rating()`: Get the average star rating for the restaurant based on its reviews.
 
 ### Review
 

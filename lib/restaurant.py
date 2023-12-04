@@ -26,7 +26,7 @@ class Restaurant:
         # Get a list of unique customers who have reviewed this restaurant
         return list(set([review.customer() for review in self.reviews]))
 
-    def average_star_rating(self):
+    def average_rating(self):
         if not self.reviews:
             return 0.0
         avg_rating = sum([review.rating for review in self.reviews]) / len(self.reviews)
