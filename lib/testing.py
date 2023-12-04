@@ -1,7 +1,6 @@
 # Import necessary classes from respective files
 from customer import Customer
 from restaurant import Restaurant
-from review import Review
 
 # Example usage:
 customer1 = Customer("John", "Doe")
